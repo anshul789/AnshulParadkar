@@ -1,4 +1,4 @@
-Question 12
+
 #include<stdio.h>
 #include <stdlib.h>
 struct process{
@@ -196,32 +196,7 @@ int main(){
 	}
 	printf("\n");
 }
-/*test cases
-Test case:1 ::
-2
-1 2 3 4
-2 1 4 3
-================================================
-Test case:2 ::
-2
-5 6 7 8
-6 5 8 7  */
-Explanation:
-In this problem I had to implement the multi-level feedback que with the help of round robin and FCFS codes where the process would considered on the basis of its arrival according to the level and also the time quantum of round robin code to make sure none of the processes starve
 
-Constraints :
-There were two constraints:-
-1 using different time quantum for different levels 
-2 using FCFS on all the processes
-
-
-Test case 1:
-The first line means that there are two processes in total
-The second line specifies the process id for first process
-The third line specifies the arrival time of the first process
-The fourth line indicates the priority of the current process
-The fifth line shows the burst time of the current process
-And the same goes for Second process and the other test cases also
 
 
 
